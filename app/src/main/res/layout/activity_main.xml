@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="rohit.com.callingandsms.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/primary_light"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_mobile_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_gravity="center"
+            android:layout_marginTop="41dp"
+            android:ems="10"
+            android:enabled="true"
+            android:hint="Mobile No"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/button_call"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Call"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/divider"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_sms_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Mobile No"
+            android:inputType="number"
+            android:maxLines="5" />
+        <EditText
+            android:id="@+id/editText_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="sms"
+            android:inputType="textPersonName"
+            android:maxLines="5" />
+
+        <Button
+            android:id="@+id/button_sms"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SMS"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
